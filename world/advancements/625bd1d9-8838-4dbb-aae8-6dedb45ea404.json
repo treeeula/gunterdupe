@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2022-06-14 17:33:39 +0000",
+      "minecraft:stony_shore": "2022-06-14 17:33:28 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

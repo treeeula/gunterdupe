@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 34.76.23.245
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655309377051
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655309422350
+  login: 1655309026131
+money: '0'
+last-account-name: SamGoezHyper11
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 395.936491939916
+  y: 82.0
+  z: -533.7740786570251
+  yaw: 84.41293334960938
+  pitch: 39.29987716674805
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 525.754962702192
+  y: 72.0
+  z: -1601.1625795324298
+  yaw: -173.91983032226562
+  pitch: 64.39163970947266

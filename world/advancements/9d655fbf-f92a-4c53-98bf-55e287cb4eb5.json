@@ -1,0 +1,33 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-06-16 04:53:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2022-06-16 04:53:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2022-06-16 04:53:47 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2022-06-16 04:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2022-06-16 04:51:53 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

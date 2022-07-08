@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 206.234.5.199
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655420532080
+  login: 1655420099306
+money: '0'
+last-account-name: Nathaniel81913
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -262.6367597614812
+  y: 62.073264366450786
+  z: 811.9785036020194
+  yaw: -116.397216796875
+  pitch: 15.530762672424316

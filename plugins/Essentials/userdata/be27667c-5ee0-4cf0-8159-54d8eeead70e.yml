@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 7.248.74.64
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655488839791
+  login: 1655488794871
+money: '0'
+last-account-name: Omsetorte
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 3173.7157376722175
+  y: 63.0
+  z: 2067.9487833729704
+  yaw: -51.80859375
+  pitch: 39.08772277832031

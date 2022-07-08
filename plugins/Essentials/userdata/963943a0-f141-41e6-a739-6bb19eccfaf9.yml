@@ -1,0 +1,64 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 205.254.195.105
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655480565388
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655486046089
+  login: 1655485228515
+money: '0'
+last-account-name: realgunter
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -3450.4235585194433
+  y: 72.73207164029154
+  z: -2399.0676854931958
+  yaw: -32.1153564453125
+  pitch: -20.849910736083984
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 94.8828473484492
+  y: 72.0
+  z: -117.07322442590636
+  yaw: -1.502044677734375
+  pitch: 29.549882888793945
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: -430.44331645925826
+    y: 14.0
+    z: -2539.8170030759056
+    yaw: 155.5537109375
+    pitch: 69.74959564208984
+  dupe:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: -419.1271969433099
+    y: 14.0
+    z: -2576.873049011117
+    yaw: -92.25439453125
+    pitch: 24.149927139282227
+  end:
+    world: e1745b93-e48e-43fd-9651-9f5d8e44f41b
+    world-name: world_the_end
+    x: -4.8421578576092115
+    y: 61.0
+    z: 40.98826885331616
+    yaw: -42.97235107421875
+    pitch: 22.64960289001465
+nickname: JacxGaming

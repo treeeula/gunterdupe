@@ -1,0 +1,18 @@
+on chat:
+	if message partially matches "(?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'"".,<>?«»“”‘’]))":
+		if player has permission "chat.url":
+			exit 2 sections
+		send "&cNo urls in chat!" to player
+		send formatted "&4!!!! &6%player% &fjust tried to send a message that contained a url! &4!!!!" to all players where [player input has permission "staff.staff"]
+		send formatted "&4!!!! &fThe message: &6<sgt:%message%>%message%&r &4!!!!" to all players where [player input has permission "staff.staff"]
+		send formatted "&4!!!! &fClick &6<cmd:/warn %player% Links in chat>here&r &fto warn them, and click &6<cmd:/tempmute %player% 1hr Links in chat>here&r &fto mute them" to all players where [player input has permission "staff.staff"]
+		cancel event
+	set chat format to formatted "%player's prefix%%player's displayname%%player's suffix%&f: %formatted message%" if player has permission "chat.format"
+	set chat format to formatted "%player's prefix%%player's displayname%%player's suffix%&f: %unformatted message%" if player doesn't have permission "chat.format"
+	
+command /isurl <text>:
+	trigger:
+		if arg-1 partially matches "(?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'"".,<>?«»“”‘’]))":
+			send "yes"
+options:
+	perm_msg: &cYou don't have permissions for this!

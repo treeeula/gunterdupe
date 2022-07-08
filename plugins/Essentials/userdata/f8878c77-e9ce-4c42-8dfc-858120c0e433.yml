@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 11.53.186.223
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655491383503
+  login: 1655491190352
+money: '0'
+last-account-name: ibaontop
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 95.79660051330846
+  y: 72.0
+  z: -114.19535533120337
+  yaw: 20.919952392578125
+  pitch: 6.072774410247803

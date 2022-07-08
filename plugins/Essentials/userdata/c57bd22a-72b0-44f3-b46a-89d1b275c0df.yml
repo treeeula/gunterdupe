@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 9.135.71.173
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655356241528
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655419982290
+  login: 1655419533325
+money: '0'
+last-account-name: XXSANSLAYERXX
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -2969.339798248958
+  y: 74.0
+  z: -1357.5014399262245
+  yaw: -112.6358413696289
+  pitch: 34.00938415527344
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -1529.9106048617755
+  y: 63.0
+  z: -2872.447845195432
+  yaw: 158.87774658203125
+  pitch: 14.1490478515625
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 2177.071999400349
+    y: 63.0
+    z: 58.51794475709742
+    yaw: 62.52032470703125
+    pitch: 25.405811309814453

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 209.115.186.76
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655405900579
+  login: 1655405791445
+money: '0'
+last-account-name: Brave_Duck
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 273.90788839808965
+  y: 69.0
+  z: -92.55807964398028
+  yaw: 159.9884796142578
+  pitch: 47.01762390136719

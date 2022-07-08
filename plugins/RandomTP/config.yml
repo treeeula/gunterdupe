@@ -1,0 +1,101 @@
+# Random Teleport by SergiFerry
+# Spigot: https://www.spigotmc.org/resources/randomtp.20063/
+#
+# Compatible with PlayerNPC API
+# Spigot: https://www.spigotmc.org/resources/playernpc.93625/
+# With PlayerNPC you will be able to create NPCs to do RandomTP with /createrandomtpnpc (world) (alias/none) (playerSkin)
+#
+# Compatible with Vault (Economy)
+# Spigot: https://www.spigotmc.org/resources/vault.34315/
+# Use {price} placeholder on signs and messages. 
+
+worlds:
+  world:
+    max-x: 10000
+    max-z: 10000
+    min-x: -10000
+    min-z: -10000
+    alias: '&a&lWorld'
+    prevent-regions: false
+    world-command: world
+    disable-command: false
+    price: 0
+  world_nether:
+    max-x: 10000
+    max-z: 10000
+    min-x: -10000
+    min-z: -10000
+    alias: '&c&lNether'
+    prevent-regions: false
+    world-command: world_nether
+    disable-command: false
+    price: 0
+  world_the_end:
+    max-x: 10000
+    max-z: 10000
+    min-x: -10000
+    min-z: -10000
+    alias: '&e&lEnd'
+    prevent-regions: false
+    world-command: world_the_end
+    disable-command: false
+    price: 0
+cooldown-sec: 300
+max-search-sec: 30
+invincible-seconds: 5
+command: randomtp
+command-all-worlds: false
+avoid-blocks:
+- OAK_LEAVES
+- SPRUCE_LEAVES
+- BIRCH_LEAVES
+- JUNGLE_LEAVES
+- ACACIA_LEAVES
+- DARK_OAK_LEAVES
+sign-line:
+  '1': '&b&lRandomTP'
+  '2': '&a{world}'
+  '3': ''
+  '4': '&eClick to teleport'
+messages:
+  prefix: '&8&l[&b&lRandomTP&8&l]'
+  permissions: '{prefix} &cYou don''t have permission to do this.'
+  sign:
+    permissions: '{prefix} &cYou do not have permissions to create randomtp signs.'
+    create: '{prefix} &aYou have created a sign for world {world}.'
+    shift: '&7To remove a sign press &cshift + left click'
+  world:
+    no-exist: '&cThis world doesn''t exist.'
+    disabled-command: '&cRandomTP is disabled in this world.'
+  teleport:
+    already: '&cAlready searching for random location'
+    started: '&aStarted searching random location.'
+    searching: '&eSearching for a random location...'
+    complete: '&bYou''ve been teleported to random location'
+    canceled: '&cRandomTP search has been canceled'
+    want-cancel: '&cIf you want to cancel RandomTP use {command}'
+    want-cancel-npc: '&cIf you want to cancel RandomTP do Left Click on NPC'
+  cooldown:
+    already: '&cYou have to wait {cooldown} seconds before another random teleport.'
+    finish: '&aThe cooldown has finished, now you can teleport.'
+dependencies:
+  vault:
+    enabled: false
+    messages:
+      no-balance: '{prefix} &cYou do not have enough money. Price {price} $, and you
+        have {balance} $'
+      successfully: '{prefix} &aYou successfully paid {price} $ for RandomTP'
+      error: '{prefix} &cError on payment: {error}'
+  playernpc:
+    enabled: false
+    text:
+      search:
+      - '&bRandom Teleport'
+      - '&a{world}'
+      - '&e&lRIGHT CLICK'
+      searching:
+      - '&bRandom Teleport'
+      - '&aSearching location...'
+      - '&c&lPUNCH TO CANCEL'
+    glowing-color:
+      searching: AQUA

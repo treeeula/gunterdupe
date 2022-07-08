@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 233.120.174.253
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655486106837
+  login: 1655482165340
+money: '0'
+last-account-name: Blitzklick
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -856.6999999880791
+  y: 73.5625
+  z: 601.3000000119209
+  yaw: 9.404296875
+  pitch: 31.084009170532227

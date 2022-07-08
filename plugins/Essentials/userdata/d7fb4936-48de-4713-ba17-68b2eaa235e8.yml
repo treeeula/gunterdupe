@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 175.144.234.230
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655421462782
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655421478361
+  login: 1655421413682
+money: '0'
+last-account-name: Mr_Butt
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 94.5
+  y: 72.0
+  z: -116.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 93.40538926576197
+  y: 72.0
+  z: -114.20884068014587
+  yaw: -11.447214126586914
+  pitch: 29.850011825561523

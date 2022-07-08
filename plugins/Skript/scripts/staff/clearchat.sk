@@ -1,0 +1,13 @@
+options:
+	perm_msg: &cYou don't have permissions for this!
+
+command /clearchat:
+	permission: staff.clearchat
+	permission message: {@perm_msg}
+	trigger:
+		loop 2500 times:
+			broadcast ""
+		broadcast "%nl%%nl%"
+		broadcast "&6%player%&3 cleared chat!"
+		broadcast "%nl%%nl%"
+		

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 217.29.36.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655349224868
+  login: 1655349213061
+money: '0'
+last-account-name: Luz_Noceda101
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.86604836546711
+  y: 72.0
+  z: -117.71604649882381
+  yaw: -75.2134017944336
+  pitch: -0.30000025033950806

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 187.115.15.80
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655355347152
+  login: 1655355290293
+money: '0'
+last-account-name: iuhh
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 3469.7218581942184
+  y: 169.70930682376616
+  z: -4761.29241654964
+  yaw: 179.54876708984375
+  pitch: 27.14996337890625
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 4968.845864579701
+    y: 76.0
+    z: -1861.300000011921
+    yaw: -130.88375854492188
+    pitch: 34.95030975341797

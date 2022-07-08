@@ -1,0 +1,4 @@
+on place of lectern:
+	cancel event
+	send "&cPlacing lecterns is disabled due to a crash method." to player
+	log "%player% tried to place a lectern!" to "attemptedcrashes.log"

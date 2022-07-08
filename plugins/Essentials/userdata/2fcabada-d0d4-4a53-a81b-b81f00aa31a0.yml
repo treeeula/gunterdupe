@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 152.80.32.74
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655498478145
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655498486743
+  login: 1655498467013
+money: '0'
+last-account-name: LionNinjaPlays
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 499.61689394529196
+  y: 80.22255068317585
+  z: 3169.7324736146006
+  yaw: -178.427001953125
+  pitch: 3.7497034072875977
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 505.84942926200097
+    y: 76.0
+    z: 2575.6375097451096
+    yaw: 107.77527618408203
+    pitch: 62.10022735595703
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 507.32146984264205
+  y: 72.0
+  z: 2576.1712776700438
+  yaw: -154.2748260498047
+  pitch: -22.199983596801758

@@ -1,0 +1,11 @@
+command /heartstop:
+	trigger:
+		set {_a::*} to reversed sorted max health of all offline players
+		send "&7---------==&3TOP HEARTS&7==----------"
+		send "&31 &7| &6%{_a::1}% &cHearts"
+		send "&32 &7| &6%{_a::2}% &cHearts"
+		send "&33 &7| &6%{_a::3}% &cHearts"
+		send "&34 &7| &6%{_a::4}% &cHearts"
+		send "&35 &7| &6%{_a::5}% &cHearts"
+		send "&7---------==&3TOP HEARTS&7==----------"
+		#send reversed sorted max health of all offline players

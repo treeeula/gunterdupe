@@ -1,0 +1,17 @@
+&7[&3-&7] &fNo use of cheats, hacked clients, or exploits.
+     &7[&3-&7] &fReport players in the discord, make sure to have evidence! &7(/discord)&f.
+     &7[&3-&7] &fPlaying with cheaters will result in a 1 day ban
+&7[&3-&7] &fNo use of slurs or any language that players may find offensive.
+     &7[&3-&7] &fThis is up to staff interpretation.
+&7[&3-&7] &fTP Killing is &lnot allowed&f.
+     &7[&3-&7] &fWhen someone teleport to you/you teleport to someone, wait at least &l2 1/2&f minutes.
+&7[&3-&7] &fAttempting to or threatening to DDOS or crash the server is not allowed.
+&7[&3-&7] &fCompromising the safety of other players is not allowed.
+&7[&3-&7] &fBypassing AFK check is not allowed.
+&7[&3-&7] &fIRL trading is not allowed.
+&7[&3-&7] &fScamming is not allowed.
+&7[&3-&7] &fFlooding or spamming chat is not allowed.
+&7[&3-&7] &fCombat logging or using any teleport commands during combat is not allowed.
+     &7[&3-&7] &fWait at least a minute after getting hit by a player before logging out or using any teleport commands.
+     &7[&3-&7] &fRunning into spawn while in combat falls under combat logging.
+&7[&3-&7] &fDuping through the use of exploits and/or bugs is not allowed

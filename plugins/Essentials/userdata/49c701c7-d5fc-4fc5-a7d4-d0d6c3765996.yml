@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 142.87.51.252
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655350182793
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655350189634
+  login: 1655349927960
+money: '0'
+last-account-name: Jeeper_
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.4449131818062
+  y: 72.0
+  z: -109.41123789904744
+  yaw: 2.601654052734375
+  pitch: 26.549959182739258
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.7134691943
+  y: 73.0
+  z: -107.48511411797311
+  yaw: -92.3589859008789
+  pitch: 24.115320205688477

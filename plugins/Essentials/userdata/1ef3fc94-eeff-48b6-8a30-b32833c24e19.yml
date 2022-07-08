@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 218.86.200.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655489029286
+  login: 1655488463926
+money: '0'
+last-account-name: Ohhkatsu
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 83.13749998807907
+  y: 72.0
+  z: -107.49556926719958
+  yaw: -111.9535140991211
+  pitch: 4.8154191970825195
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: -3746.579912251131
+    y: 103.0
+    z: 71.83780449262916
+    yaw: 50.91075134277344
+    pitch: 66.33818817138672
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.68123824299393
+  y: 72.0
+  z: -111.94255774064763
+  yaw: -174.87265014648438
+  pitch: 3.5483436584472656

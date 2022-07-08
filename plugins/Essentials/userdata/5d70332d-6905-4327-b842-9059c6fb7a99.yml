@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 29.111.192.184
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655411568075
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655411902111
+  login: 1655406348712
+money: '0'
+last-account-name: Bluaza_yt
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 130.2423004327268
+  y: 71.0
+  z: -85.7153265686858
+  yaw: -14.399078369140625
+  pitch: 14.400062561035156
+homes:
+  base:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: -1072.929657172586
+    y: 103.5625
+    z: -1569.4132120954496
+    yaw: 143.4009552001953
+    pitch: 33.5999870300293
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -1048.5675794574136
+  y: 113.0
+  z: -1554.9997536166184
+  yaw: 79.3448486328125
+  pitch: 20.0999698638916

@@ -1,0 +1,5 @@
+on death of player:
+	chance of 15%:
+		give attacker victim's skull
+		send "&3You got &c%victim%&3's skull!" to attacker
+		

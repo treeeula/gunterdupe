@@ -1,0 +1,12 @@
+options:
+	perm_msg: &cYou don't have permissions for this!
+	max_summon: 500
+
+command /summon <entitytype> [<integer=1>]:
+	permission: summon.use
+	permission message: {@perm_msg}
+	trigger:
+		if arg-2 is greater than {@max_summon}:
+			send "&cYou can't spawn that many mobs!" to player
+		else:
+			summon arg-2 of arg-1 at player

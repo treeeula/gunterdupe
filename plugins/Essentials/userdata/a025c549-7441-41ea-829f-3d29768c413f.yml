@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.100.18.192
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655346471845
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655412060109
+  login: 1655412020582
+money: '0'
+last-account-name: LetterFive
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 95.83401105072835
+  y: 72.0
+  z: -102.83422086184522
+  yaw: 176.10150146484375
+  pitch: 10.799925804138184
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 96.21707352740981
+  y: 72.0
+  z: -118.76893698711011
+  yaw: -18.945268630981445
+  pitch: 11.198607444763184
+homes:
+  gang:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: -3765.7130117813404
+    y: 64.0
+    z: -1393.4335732293594
+    yaw: -97.0518798828125
+    pitch: 22.199506759643555

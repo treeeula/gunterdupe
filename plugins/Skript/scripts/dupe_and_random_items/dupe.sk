@@ -1,0 +1,74 @@
+options:
+	perm_msg: &cYou don't have permissions for this!
+
+function noNBT(item: itemtype) :: item:
+	set {_a} to nbt compound of {_item}
+	delete tag "tag;*" of {_a}
+	return type of item from nbt {_a}
+
+function blacklistItem(item: itemtype):
+	if {blacklisted::*} contains {_item}:
+		doNothing()
+	else if {blacklisted::*} doesn't contain {_item}:
+		add type of {_item} to {blacklisted::*}
+
+
+function whitelistItem(item: itemtype):
+	if {blacklisted::*} contains {_item}:
+		remove plain type of {_item} from {blacklisted::*}
+	else if {blacklisted::*} doesn't contain {_item}:
+		doNothing()
+
+function checkBlacklist(item: itemtype) :: boolean:
+	if {blacklisted::*} contains {_item}:
+		return true
+	else if {blacklisted::*} doesn't contain {_item}:
+		return false
+
+
+command /dupe:
+	aliases: /d
+	cooldown: 1.5 seconds
+	cooldown bypass: dupe.cooldown.bypass
+	trigger:
+		if player is holding any shulker box:
+			send "&3You can't dupe &6%type of player's tool%&3!" to player
+		else if {blacklisted::*} contains noNBT(plain player's tool):
+			send "&3You can't dupe &6%type of player's tool%&3!" to player
+		else:
+			give player item amount of player's tool of player's tool
+			add 1 to {duped::%player's uuid%}
+				
+command /blacklistitem [<itemtype=%player's tool%>]:
+	aliases: /blacklist, bi
+	permission: blacklist.item
+	permission message: {@perm_msg}
+	trigger:
+		if checkBlacklist(noNBT(arg-1)) is false:
+			blacklistItem(noNBT(arg-1))
+			send "&3You blacklisted &6%type of arg-1%&3!" to player
+		else:
+			send "&6%type of arg-1% &3is already blacklisted!" to player
+
+command /whitelistitem [<itemtype=%player's tool%>]:
+	aliases: /wi
+	permission: whitelist.item
+	permission message: {@perm_msg}
+	trigger:
+		if checkBlacklist(noNBT(arg-1)) is false:
+			send "&6%type of arg-1% &3isn't blacklisted!" to player
+		else:
+			whitelistItem(noNBT(arg-1))
+			send "&3You whitelisted &6%type of arg-1%&3!" to player
+
+command /blacklisted:
+	aliases: /blacklisted
+	trigger:
+		send "&3Blacklisted items:" to player
+		loop {blacklisted::*}:
+			send loop-value
+		
+		
+		
+		
+			

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 120.96.180.141
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655413618342
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655414136960
+  login: 1655413983912
+money: '0'
+last-account-name: DragonCraftYT
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.16202724048756
+  y: 72.0
+  z: -100.0197029418296
+  yaw: 50.26549530029297
+  pitch: 1.593780517578125
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 316.87740218665994
+  y: 71.0
+  z: -45.25636354826852
+  yaw: -42.63949203491211
+  pitch: 26.304609298706055
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 2670.0414127144118
+    y: 213.0
+    z: -2399.73209524913
+    yaw: 167.6398162841797
+    pitch: 38.27893829345703

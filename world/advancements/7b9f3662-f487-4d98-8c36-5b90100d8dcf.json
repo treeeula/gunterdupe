@@ -1,0 +1,42 @@
+{
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2022-06-08 02:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2022-06-08 02:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2022-06-08 02:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2022-06-08 02:26:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2022-06-08 02:26:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:eroded_badlands": "2022-06-08 02:27:43 +0000",
+      "minecraft:badlands": "2022-06-08 02:26:51 +0000",
+      "minecraft:stony_shore": "2022-06-08 02:26:30 +0000",
+      "minecraft:desert": "2022-06-08 02:27:44 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

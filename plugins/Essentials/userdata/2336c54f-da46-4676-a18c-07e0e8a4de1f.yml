@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 19.120.144.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655249293794
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655249317032
+  login: 1655248466164
+  command-cooldowns:
+  - pattern: tpr( .*)?
+    value: 1655249793793
+money: '0'
+last-account-name: kokwaMC
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.91225723038426
+  y: 72.0
+  z: -104.24323573018513
+  yaw: -174.502197265625
+  pitch: 22.505905151367188
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 1180.5
+  y: 74.0
+  z: 1018.5
+  yaw: -15.376739501953125
+  pitch: 3.7509818077087402

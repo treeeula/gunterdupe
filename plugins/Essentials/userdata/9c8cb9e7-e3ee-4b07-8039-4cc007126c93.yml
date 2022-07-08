@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 241.84.119.187
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655319641880
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655319699525
+  login: 1655319433029
+  command-cooldowns:
+  - pattern: tpr( .*)?
+    value: 1655320141879
+money: '0'
+last-account-name: wellos11
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.50690081705683
+  y: 72.0
+  z: -118.21561297694214
+  yaw: -22.141510009765625
+  pitch: 13.79966926574707
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -618.0163952361366
+  y: 72.0
+  z: -1168.9975348261075
+  yaw: 49.48030090332031
+  pitch: 19.199996948242188

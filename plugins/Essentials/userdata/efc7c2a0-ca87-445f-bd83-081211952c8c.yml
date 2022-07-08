@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 205.254.195.105
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655352358018
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655379922554
+  login: 1655379622260
+money: '0'
+last-account-name: HiroThena
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 95.17244818125536
+  y: 72.0
+  z: -114.79428104383969
+  yaw: 118.56317901611328
+  pitch: 13.5784330368042
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 92.28195196827787
+  y: 72.0
+  z: -115.04410730709438
+  yaw: 161.99716186523438
+  pitch: 16.949859619140625
+homes:
+  home:
+    world: e1745b93-e48e-43fd-9651-9f5d8e44f41b
+    world-name: world_the_end
+    x: 101.97094605293633
+    y: 45.0
+    z: -4.273228176910836
+    yaw: 81.12265014648438
+    pitch: 28.79983901977539

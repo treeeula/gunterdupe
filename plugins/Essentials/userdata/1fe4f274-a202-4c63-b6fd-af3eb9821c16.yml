@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 105.205.38.40
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655405208443
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655491390054
+  login: 1655490929092
+money: '0'
+last-account-name: GodofHockey11
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 90.75171635173461
+  y: 72.0
+  z: -115.41779662857546
+  yaw: 175.64869689941406
+  pitch: 13.34992504119873
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 4339.125667911397
+  y: 64.0
+  z: 1100.8383604793892
+  yaw: -137.3976287841797
+  pitch: -59.09971618652344

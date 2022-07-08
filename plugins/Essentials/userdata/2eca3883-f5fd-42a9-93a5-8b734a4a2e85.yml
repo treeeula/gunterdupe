@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: true
+ip-address: 21.96.224.236
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 1655385772776
+  onlinejail: 0
+  logout: 1655342735307
+  login: 1655341998765
+money: '0'
+last-account-name: s7vr
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -68.80248214922996
+  y: 71.0
+  z: -95.49069669322553
+  yaw: -43.50297546386719
+  pitch: 39.04299545288086
+jail: '10'
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 664.2840380692155
+  y: 67.25220334025373
+  z: -268.87055973170794
+  yaw: -150.35658264160156
+  pitch: 38.67256164550781

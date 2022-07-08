@@ -1,0 +1,8 @@
+options:
+	perm_msg: &cYou don't have permissions for this!
+
+command /i [<player=%player%>] <itemtype> [<number=1>]:
+	permission: item.use
+	permission message: {@perm_msg}
+	trigger:
+		give arg-1 arg-3 of arg-2

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 34.1.106.202
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655497294276
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655497798842
+  login: 1655497100264
+money: '0'
+last-account-name: BoredDeathherd
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 94.31191544071699
+  y: 72.0
+  z: -116.97412012346366
+  yaw: -1.0485873222351074
+  pitch: 9.60030460357666
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 130.21900493578357
+  y: 66.0
+  z: -120.1277705604869
+  yaw: -160.3521270751953
+  pitch: 12.450021743774414
+homes:
+  a:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 1111.1841087722762
+    y: 88.0
+    z: -407.82718860210946
+    yaw: 138.6731414794922
+    pitch: 17.888145446777344

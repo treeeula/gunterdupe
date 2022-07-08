@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 120.44.80.223
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655316713629
+  login: 1655316708202
+money: '0'
+last-account-name: LukiiiZocktYT
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 94.20213392115922
+  y: 72.0
+  z: -114.9253979001211
+  yaw: -2.422438859939575
+  pitch: 7.608097553253174

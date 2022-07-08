@@ -1,0 +1,71 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 219.179.79.181
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655333454777
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655334326939
+  login: 1655332683158
+money: '0'
+last-account-name: atomcrumb
+homes:
+  a:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 2861.0229797022716
+    y: 77.0
+    z: 1268.4032079673077
+    yaw: -52.44679641723633
+    pitch: 19.064104080200195
+  b:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 2308.5
+    y: 78.0
+    z: 4103.5
+    yaw: 21.506793975830078
+    pitch: 10.94223690032959
+  c:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 2303.300000011921
+    y: 76.0
+    z: 4089.699999988079
+    yaw: -86.0290756225586
+    pitch: -54.33380889892578
+  d:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 3551.699999988079
+    y: 119.0
+    z: 3834.300000011921
+    yaw: 36.7711181640625
+    pitch: 15.290839195251465
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 2303.3313917782552
+  y: 76.0
+  z: 4089.0723765465445
+  yaw: -47.9200553894043
+  pitch: 72.82254028320312
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 3551.699999988079
+  y: 119.0
+  z: 3834.300000011921
+  yaw: 36.7711181640625
+  pitch: 15.290839195251465

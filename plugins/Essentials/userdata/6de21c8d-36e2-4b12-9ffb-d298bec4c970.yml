@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 170.207.120.70
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655310445303
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655311050848
+  login: 1655311044420
+  command-cooldowns:
+  - pattern: tpr( .*)?
+    value: 1655310945303
+money: '0'
+last-account-name: kidkarnage23
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -247.54724741333249
+  y: 72.0
+  z: 2553.300000011921
+  yaw: -4.9415598368796054E-6
+  pitch: -0.12076323479413986
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 99.38987838930721
+  y: 72.0
+  z: -92.7705366259661
+  yaw: -91.53833770751953
+  pitch: 7.245791912078857

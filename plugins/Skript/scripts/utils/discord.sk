@@ -1,0 +1,14 @@
+command /discord:
+	trigger:
+		send ""
+		send ""
+		send formatted "          &3Click &c<link:https://discord.gg/3ygfNWtdYd>here &r&3to join the discord!           "
+		send ""
+		send ""
+
+every 10 minutes:
+	send "" to all players
+	send ""  to all players
+	send formatted "          &3Click &c<link:https://discord.gg/3ygfNWtdYd>here &r&3to join the discord!           "  to all players
+	send ""  to all players
+	send ""  to all players

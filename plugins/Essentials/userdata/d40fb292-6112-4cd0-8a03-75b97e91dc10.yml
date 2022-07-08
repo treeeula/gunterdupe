@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 30.184.201.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655155598703
+  login: 1655153879255
+money: '0'
+last-account-name: YTJeff
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 102.94935558846782
+  y: 72.0
+  z: -93.67619843125492
+  yaw: -76.0509262084961
+  pitch: 3.8998682498931885
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 95.00735415097887
+  y: 321.34461771408064
+  z: -117.70820058702263
+  yaw: -8.0777587890625
+  pitch: 19.50019073486328

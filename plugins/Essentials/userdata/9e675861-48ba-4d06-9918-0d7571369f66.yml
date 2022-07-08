@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.65.200.101
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655323026025
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655323451146
+  login: 1655322852154
+money: '0'
+last-account-name: MaxAttack6
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 85.60363253818791
+  y: 73.0
+  z: -98.11007596898291
+  yaw: -14.244842529296875
+  pitch: 31.199949264526367
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 115.69999998807907
+  y: 68.41999998688698
+  z: -84.67226226057578
+  yaw: -53.711700439453125
+  pitch: 19.499977111816406

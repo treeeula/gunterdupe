@@ -1,0 +1,6 @@
+function testaaa():
+	loop all players:
+		set loop-player's tab name to "%loop-player's prefix%%loop-player's nickname%%loop-player's suffix%"
+
+on join:
+	set player's tab name to "%player's prefix%%player's nickname%%player's suffix%"

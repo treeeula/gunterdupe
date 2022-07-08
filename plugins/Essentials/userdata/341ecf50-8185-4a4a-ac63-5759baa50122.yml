@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 17.174.187.2
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655314023240
+  login: 1655312572534
+money: '0'
+last-account-name: void_quix
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -84.55889199325719
+  y: 64.0
+  z: -686.9886856414957
+  yaw: -163.59774780273438
+  pitch: -17.279348373413086
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 96.3920698679055
+  y: 72.0
+  z: -116.17881188431699
+  yaw: 159.88514709472656
+  pitch: 4.622480392456055

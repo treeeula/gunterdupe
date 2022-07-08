@@ -1,0 +1,19 @@
+function e(bool: boolean):
+	if {_bool} is true:
+		set {loop11111} to 1		
+	if {_bool} is false:
+		set {loop11111} to 0
+	while {loop11111} is 1:
+		set block at location(94, 32, -117, world "world") to red stained glass
+		wait 1 second
+		set block at location(94, 32, -117, world "world") to orange stained glass
+		wait 1 second
+	
+on skript load:
+	e(true)
+	
+
+command dbug___12312312 <boolean>:
+	executable by: console
+	trigger:
+		e(arg-1)

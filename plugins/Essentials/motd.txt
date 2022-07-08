@@ -1,0 +1,1 @@
+&cwelcome, {PLAYER}&c!

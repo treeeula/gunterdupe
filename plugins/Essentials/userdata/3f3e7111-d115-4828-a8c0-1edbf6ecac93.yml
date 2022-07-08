@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 248.201.112.211
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655505562239
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655505762088
+  login: 1655505494296
+money: '0'
+last-account-name: Witherably
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 74.46976641714204
+  y: 71.0
+  z: -124.93658102548383
+  yaw: 68.72577667236328
+  pitch: 13.250678062438965
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 133.59759619766652
+  y: 57.0
+  z: -218.18817069612203
+  yaw: -179.68603515625
+  pitch: 9.505682945251465
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: -1818.2905490944815
+    y: 71.0
+    z: -613.6145797059319
+    yaw: -82.60671997070312
+    pitch: 15.455432891845703

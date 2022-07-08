@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 6.34.165.87
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655256075062
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655256329647
+  login: 1655255344629
+  command-cooldowns:
+  - pattern: tpr( .*)?
+    value: 1655256515277
+money: '0'
+last-account-name: AstroShockwave
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 94.92294164357887
+  y: 72.0
+  z: -118.65444347693152
+  yaw: -39.74964141845703
+  pitch: 14.699993133544922
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 479.0731818801797
+  y: 64.0
+  z: 215.43728890625374
+  yaw: 85.97956848144531
+  pitch: 14.699590682983398

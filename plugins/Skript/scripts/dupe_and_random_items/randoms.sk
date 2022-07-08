@@ -1,0 +1,61 @@
+options:
+	perm_msg: &cYou don't have permissions for this!
+
+on first join:
+	set {randomitems::%player's uuid%} to true
+	send "&3Your random items is &6%{randomitems::%player's uuid%}%&3! Do &6/togglerandomitems &3to toggle it off!" to player
+
+on join:
+	send "&3Your random items is &6%{randomitems::%player's uuid%}%&3!" to player
+
+command /togglerandomitems:
+	aliases: /tri
+	trigger:
+		if {randomitems::%player's uuid%} is false:
+			set {randomitems::%player's uuid%} to true 
+			send "&3You toggled your random items &2on&3!"
+		else if {randomitems::%player's uuid%} is true:
+			set {randomitems::%player's uuid%} to false
+			send "&3You toggled your random items &coff&3!"
+
+command /globaltogglerandomitems:
+	aliases: /gtri
+	permission message: {@perm_msg}
+	permission: gtri.use
+	trigger:
+		if {globalrandomitems} is false:
+			set {globalrandomitems} to true
+			broadcast "&c&l!! &r&6%player% &3toggled global random items &2on&3! &c&l!!"
+		else if {globalrandomitems} is true:
+			broadcast "&c&l!! &6%player% &3toggled global random items &coff&3! &c&l!!"
+			set {globalrandomitems} to false
+
+command /dbug__129029390508120309:
+	executable by: console
+	trigger:
+		set {globalrandomitems} to true
+		loop all players:
+			set {randomitems::%loop-player's uuid%} to true
+
+
+function doNothing():
+	set {_} to ""
+
+on join:
+	while player is online:
+		wait 15 seconds
+		if {randomitems::%player's uuid%} is true:
+			if {globalrandomitems} is true:
+				set {_} to (random item out of all items)
+				if player can hold 1 of {_}:
+					give player 1 of {_}
+				else:
+					drop 1 of {_} at player
+				add 1 to {totalri::%player's uuid%}
+				send "&3You got &6%{_}%&3!"
+			else:
+				doNothing()
+		else:
+			doNothing()
+		
+					

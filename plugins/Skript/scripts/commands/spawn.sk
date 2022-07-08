@@ -1,0 +1,4 @@
+command /spawn:
+	cooldown: 10 seconds
+	trigger:
+		teleport player to location(94.5, 72, -116.5, world "world")

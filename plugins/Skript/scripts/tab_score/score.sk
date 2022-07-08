@@ -1,0 +1,15 @@
+on join:
+	wait 1 tick
+	toggle board of player to on
+	while player is online:
+		set title of player's board to "   &cgunterdupe   "
+		set line 5 of player's board to "   &8>%player's display name%   "
+		set line 4 of player's board to "    &8>>&r&3Total items duped&8: &7%{duped::%player's uuid%} ? 0%   "
+		set line 3 of player's board to "    &8>>&r&3Total random items gotten&8: &7%{totalri::%player's uuid%} ? 0%   "
+		set line 2 of player's board to "   &8>&3Server Stats   "
+		set line 1 of player's board to "    &8>>&r&3Unique Joins&8: &7%size of all offline players ? 0%   "
+		wait 2.5 seconds
+
+on disconnect:
+	
+		

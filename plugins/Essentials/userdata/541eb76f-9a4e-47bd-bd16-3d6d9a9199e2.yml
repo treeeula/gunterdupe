@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 54.225.36.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655182074106
+  login: 1655181886876
+money: '0'
+last-account-name: AGWolf8
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 97.09690273552631
+  y: 72.0
+  z: -116.47675159312494
+  yaw: -23.5064640045166
+  pitch: 10.769050598144531
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 96.7402133019503
+  y: 72.0
+  z: -114.26526375955088
+  yaw: -16.144990921020508
+  pitch: 4.142250061035156

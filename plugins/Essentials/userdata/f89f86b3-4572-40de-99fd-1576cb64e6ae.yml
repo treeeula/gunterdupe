@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 4.102.206.156
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655505275940
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655505694335
+  login: 1655505703528
+money: '0'
+last-account-name: slicer_darklord
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 1036.7325521323367
+  y: 71.0
+  z: -461.2611527620587
+  yaw: -176.40670776367188
+  pitch: 5.804358005523682
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 133.55136684190558
+  y: 57.0
+  z: -227.4460013857582
+  yaw: 120.2696533203125
+  pitch: 16.357389450073242

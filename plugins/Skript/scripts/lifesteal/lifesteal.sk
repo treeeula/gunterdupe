@@ -1,0 +1,125 @@
+options:
+	perm_msg: &cYou don't have permissions for this!
+
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+#FUNCTIONS FOR REMOVING, ADDING, SETTING, AND CHECKING HEARTS
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+
+function addHearts(pl: player, num: integer=1):
+	add {_num} to the max health of {_pl}
+	heal {_pl} by {_num}
+
+function removeHearts(pl: player, num: integer=1):
+	subtract {_num} from the max health of {_pl}
+	damage {_pl} by {_num}
+
+function setHearts(pl: player, num: integer):
+	set {_pl}'s max health to {_num}
+	if {_pl}'s health is less than {_num}:
+		heal {_pl}
+	else:
+		damage {_pl} by {_num}
+
+function checkHearts(pl: offline player) :: text:
+	return "%{_pl}'s max health%"
+
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+#COMMANDS FOR ADDING, REMOVING, SETTING, AND CHECKING HEARTS
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+
+command /addhearts [<player=%player%>] [<integer=1>]:
+	permission: hearts.change
+	permission message: {@perm_msg}
+	trigger:
+		addHearts(arg-1, arg-2)
+		send "&3You've given &6%arg-2% &3heart%mults(arg-2)% to &6%arg-1%&3!" to player
+		send "&3You've been given &6%arg-2% &3heart%mults(arg-2)%!" to arg-1
+
+command /removehearts [<player=%player%>] [<integer=1>]:
+	permission: hearts.change
+	permission message: {@perm_msg}
+	trigger:
+		removeHearts(arg-1, arg-2)
+		send "&3You've reduced &6%arg-1%&3's &3heart%mults(arg-2)% by &6%arg-2%&3!" to player
+		send "&3Your heart%mults(arg-2)% have been reduced by &6%arg-2%" to arg-1
+
+command /sethearts [<player=%player%>] [<integer>]:
+	permission: hearts.change
+	permission message: {@perm_msg}
+	trigger:
+		setHearts(arg-1, arg-2)
+		send "&3You've set &6%arg-1%&3's hearts to &6%arg-2%&3!" to player
+		send "&3Your hearts have been set to &6%arg-2%" to arg-1
+
+command /checkhearts [<offline player=%player%>]:
+	permission: hearts.query
+	permission message: {@perm_msg}
+	trigger:
+		send "&6%arg-1% &3has &6%checkHearts(arg-1)% &3heart%mults((checkHearts(arg-1) parsed as integer))%!" to player
+
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+#WITHDRAW + USABLE HEARTS
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+command /withdraw [<integer=1>]:
+	aliases: /withdraw
+	trigger:
+		set {_a} to nether star named "&cHeart"
+		set {_n} to nbt compound of {_a}
+		set tag "tag;Heart" of {_n} to 1
+		if player's inventory can hold arg-1 of (item from nbt {_n}):
+			if abs(arg-1) >= player's max health:
+				send "&3You can't withdraw that many hearts! &7(must be >1 heart and < your current hearts)" to player
+			else:
+				set {_a} to nether star named "&cHeart"
+				set {_n} to nbt compound of {_a}
+				set tag "tag;Heart" of {_n} to 1
+				give player arg-1 of item from nbt {_n}
+			
+				set {_arg1} to abs(arg-1)
+				removeHearts(player, {_arg1})
+		else:
+			send "&cYour inventory is full!" to player
+
+on right click with nether star:
+	if name of player's tool is "&cHeart":
+		if max health of player = 20:
+			send "&cYou can't use any more hearts!"
+			cancel event
+		else:
+			set {_n} to nbt compound of player's tool
+			if tag "tag;Heart" of {_n} is 1:
+				if player's gamemode is not creative or spectator:
+					remove 1 of player's tool from player
+					addHearts(player, 1)
+				else:
+					send "&cyou can't use hearts in creative/spectator because that crashes the server for some reason!"
+		
+on death of player:
+	if attacker is a player:
+		if max health of victim <= 1:
+			set death message to "&6%victim% &7died to &6%attacker%&7, but they can't lose any more &chearts!"
+		else if max health of attacker = 20:
+			set death message to "&6%victim% &7died to &6%attacker%&7, but &6%attacker% &7can't gain any more &chearts!"
+		else:
+			addHearts(attacker, 1)
+			removeHearts(victim, 1)
+			set death message to "&6%victim% &7died to &6%attacker% &7and lost a &cheart&7!"
+
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+#HEART RECIPE
+#~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+command /dbug_heartrecipe [<player>]:
+	executable by: console
+	trigger:
+		set {_star} to nether star named "&cHeart"
+		set {_n} to nbt compound of {_star}
+		set tag "tag;Heart" of {_n} to 1
+		set {_star} to item from nbt {_n}
+		register new shaped recipe for {_star} using zombie villager spawn egg, villager spawn egg, wither skeleton spawn egg, shulker spawn egg, nether star, skeleton horse spawn egg, zombie horse spawn egg, phantom spawn egg, and pufferfish spawn egg with id "heart:heart"
+
+on skript load:
+	set {_star} to nether star named "&cHeart"
+	set {_n} to nbt compound of {_star}
+	set tag "tag;Heart" of {_n} to 1
+	set {_star} to item from nbt {_n}
+	register new shaped recipe for {_star} using zombie villager spawn egg, villager spawn egg, wither skeleton spawn egg, shulker spawn egg, nether star, skeleton horse spawn egg, zombie horse spawn egg, phantom spawn egg, and pufferfish spawn egg with id "heart"

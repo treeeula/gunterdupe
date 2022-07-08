@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.47.58.138
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655324139193
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655324295681
+  login: 1655323856849
+  command-cooldowns:
+  - pattern: tpr( .*)?
+    value: 1655324639192
+money: '0'
+last-account-name: JoelsRsus
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 297.61225095952415
+  y: 72.0
+  z: 1.9823264671841963
+  yaw: 79.64920806884766
+  pitch: 40.949642181396484
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: -1779.4149103870916
+  y: 75.0
+  z: -2043.0246837810403
+  yaw: 13.571727752685547
+  pitch: 7.949936389923096

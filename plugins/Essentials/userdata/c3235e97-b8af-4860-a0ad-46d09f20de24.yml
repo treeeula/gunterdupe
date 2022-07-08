@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 248.149.2.119
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655309542767
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655309660197
+  login: 1655308990419
+  command-cooldowns:
+  - pattern: tpr( .*)?
+    value: 1655310042766
+money: '0'
+last-account-name: ClownSlic3r
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 497.2562996588306
+  y: 87.0
+  z: -1389.039683477238
+  yaw: 166.799560546875
+  pitch: 23.767717361450195
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 464.5374810769749
+  y: -12.0
+  z: -2654.5306742552602
+  yaw: -5.942262649536133
+  pitch: 58.80158996582031

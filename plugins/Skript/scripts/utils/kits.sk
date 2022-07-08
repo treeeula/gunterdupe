@@ -1,0 +1,37 @@
+#ignore my shitty ass hardcoded kits please!
+
+command /shittykits1 <text>:
+	permission: op
+	trigger:
+		add player's tool to {kits.%arg-1%::*}
+
+command /shittykits <text> <player>:
+	executable by: console
+	trigger:
+		if arg-1 is "adminitems":
+			give arg-2 {kits.adminitems::*}
+		else if arg-1 is "stackofbedrock":
+			give arg-2 {kits.stackofbedrock::*}
+		else if arg-1 is "bedrock":
+			give arg-2 {kits.bedrock::*}
+		else if arg-1 is "redstone":
+			give arg-2 {kits.redstone::*}
+		else if arg-1 is "splashpot":
+			give arg-2 {kits.splashpot::*}
+		else if arg-1 is "pot":
+			give arg-2 {kits.pot::*}
+		else if arg-1 is "orebuilding":
+			give arg-2 {kits.orebuilding::*}
+		else if arg-1 is "bbbbbbbbbb":
+			give arg-2 {kits.terracotta::*}
+		else if arg-1 is "wool":
+			give arg-2 {kits.wool::*}
+		else if arg-1 is "opnether":
+			give arg-2 {kits.opnether::*}
+		else if arg-1 is "opdia":
+			give arg-2 {kits.opdia::*}
+		else if arg-1 is "creeperraid":
+			give arg-2 {kits.creeperraid::*}
+		else if arg-1 is "witherraid":
+			give arg-2 {kits.witherraid::*}
+			

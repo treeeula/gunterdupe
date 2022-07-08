@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 120.96.180.141
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1655414006334
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1655414147320
+  login: 1655413977077
+money: '0'
+last-account-name: CarNoahTaurus
+lastlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 3392.1883843287574
+  y: 64.5
+  z: -1782.1328115380513
+  yaw: -59.252227783203125
+  pitch: 23.549970626831055
+homes:
+  home:
+    world: 653b8e3d-67d2-48de-b347-be71f395874c
+    world-name: world
+    x: 2664.785631972441
+    y: 213.0
+    z: -2402.8677237723523
+    yaw: -135.00189208984375
+    pitch: 68.09999084472656
+logoutlocation:
+  world: 653b8e3d-67d2-48de-b347-be71f395874c
+  world-name: world
+  x: 2665.112229579949
+  y: 213.0
+  z: -2400.700039449619
+  yaw: 3.146575927734375
+  pitch: 3.6000046730041504
